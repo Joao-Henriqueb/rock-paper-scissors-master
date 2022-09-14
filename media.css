@@ -1,0 +1,57 @@
+@media screen and (min-width:1000px) {
+   .pontuacao{
+        width: 500px;
+        padding: 1rem 1rem;
+   }
+   
+    .escolha{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5rem;
+        margin-top: 2rem;
+        
+    }
+    .pedra{
+        margin: 0;
+        position: absolute;
+        bottom: 15%;
+    }
+    .VitoriOuDerrota{
+        justify-content: space-evenly;
+        width: 80%;
+        height:280px;
+    }
+    .options{
+        width: 80%;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-bottom: 10rem;
+    }
+    .voceEscolheu div{
+        position: absolute;
+        top: 50%;
+    }
+    .botEscolheu div{
+        position: absolute;
+        top: 50%;
+        left: 57%;
+    }
+    .botaoRegras{
+        align-self:flex-end ;
+        margin-right: 2rem;
+    }
+    .regras{
+        width: 500px;
+    }
+
+
+
+
+
+
+
+
+
+}
